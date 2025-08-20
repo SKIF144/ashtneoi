@@ -1,0 +1,66 @@
+xkb_symbols "basic" {
+    name[Group1]= "English (WorkmanBM)";
+ 
+
+	//Number row
+
+	key <AE01> { [ 1 ] };
+	key <AE02> { [ 2 ] };
+	key <AE03> { [ 3 ] };
+	key <AE04> { [ 4 ] };
+	key <AE05> { [ 5 ] };
+	key <AE06> { [ 6 ] };
+	key <AE07> { [ 7 ] };
+	key <AE08> { [ 8 ] };
+	key <AE09> { [ 9 ] };
+	key <AE10> { [ 0 ] };
+
+
+	//First Row
+
+	key <AD01> { [ q, Q, asciitilde, exclam ] };
+	key <AD02> { [ d,	D,	at,	ampersand ] };
+	key <AD03> { [ r,	R,	numbersign, 	asterisk ] };
+	key <AD04> { [ w,	W,	dollar ] };
+	key <AD05> { [ b,	B,	percent ] };
+
+	//space first Row
+	key <AD07> { [ j,	J ] };
+	key <AD08> { [ f,	F ] };
+	key <AD09> { [ u,	U ] };
+	key <AD10> { [ p,	P ] };
+	key <AD11> { [ semicolon, 	colon ] };
+
+
+
+	//second Row
+    key <CAPS> { [ BackSpace, Escape ] };
+	key <AC01> { [ a,	A ] };
+	key <AC02> { [ s,	S,	bracketleft ] };
+	key <AC03> { [ h,	H,	braceleft ] };
+	key <AC04> { [ t,	T,	parenleft ] };
+	key <AC05> { [ g,	G,	minus,	underscore ] };
+
+	//space second Row
+	key <AC07> { [ y,	Y,	 plus, 	equal ] };
+	key <AC08> { [ n,	N,	Left,	slash ] };
+	key <AC09> { [ e,	E,	Down,	bar ] };
+	key <AC10> { [ o,	O,	Up,	backslash ] };
+	key <AC11> { [ i,	I, Right ] };
+	key <AC12> { [ apostrophe,	quotedbl ] };
+
+
+	//third Row
+	key <AB01> { [ z,	Z,	1 ] };
+	key <AB02> { [ x,	X,	2 ] };
+	key <AB03> { [ m,	M,	3 ] };
+	key <AB04> { [ c,	C,	4 ] };
+	key <AB05> { [ v,	V,	5 ] };
+	key <AB06> { [ 6 ] };
+	key <AB07> { [ k,	K,	7 ] };
+	key <AB08> { [ l,	L,	8 ] };
+	key <AB09> { [ comma,	less,	9 ] };
+	key <AB10> { [ period, greater, 0 ] };
+
+    include "level3(ralt_switch)"
+};
