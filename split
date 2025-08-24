@@ -21,7 +21,7 @@ xkb_symbols "basic" {
 	key <AD01> { [ q, Q, asciitilde, exclam ] };
 	key <AD02> { [ d,	D,	at,	ampersand ] };
 	key <AD03> { [ r,	R,	numbersign, 	asterisk ] };
-	key <AD04> { [ w,	W,	dollar ] };
+	key <AD04> { [ w,	W,	dollar, question ] };
 	key <AD05> { [ b,	B,	percent ] };
 
 	//space first Row
