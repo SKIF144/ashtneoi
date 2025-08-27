@@ -36,9 +36,9 @@ xkb_symbols "basic" {
 	//second Row
     key <CAPS> { [ BackSpace, Escape ] };
 	key <AC01> { [ a,	A ] };
-	key <AC02> { [ s,	S,	bracketleft ] };
-	key <AC03> { [ h,	H,	braceleft ] };
-	key <AC04> { [ t,	T,	parenleft ] };
+	key <AC02> { [ s,	S,	bracketleft, bracketright] };
+	key <AC03> { [ h,	H,	braceleft, braceright] };
+	key <AC04> { [ t,	T,	parenleft, parenright ] };
 	key <AC05> { [ g,	G,	minus,	underscore ] };
 
 	//space second Row
